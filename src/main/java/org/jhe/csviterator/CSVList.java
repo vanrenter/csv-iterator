@@ -26,7 +26,7 @@ import java.util.Map;
  * @license GPL v3
  *
  */
-public interface CVSList extends List<Map<String,String>> {
+public interface CSVList extends List<Map<String,String>> {
 	public List<String> getHeaders() throws IOException;
 
 }

@@ -29,7 +29,7 @@ import java.util.Map;
  * @author le.jhe@freesbee.fr
  * @license GPL v3
  */
-public class CSVArrayList implements CVSList {
+public class CSVArrayList implements CSVList {
 	private List<Map<String,String>> list;
 	CSVIteratorImpl iter;
 

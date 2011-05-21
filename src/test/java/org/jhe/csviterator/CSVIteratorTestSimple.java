@@ -35,7 +35,7 @@ import org.junit.Test;
  * @license GPL v3
  */
 public class CSVIteratorTestSimple extends TestCase {
-	private CVSList list;
+	private CSVList list;
 	private List expectedHeaders;
 	private List<Map<String,String>> expectedValues;
 	

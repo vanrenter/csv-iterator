@@ -36,7 +36,7 @@ import org.junit.Test;
  */
 
 public class CSVIteratorTestMulti extends TestCase {
-	private CVSList list;
+	private CSVList list;
 	private List expectedHeaders;
 	private List<Map<String,List<String>>> expectedValues;
 	
